@@ -101,8 +101,28 @@ He showed us how to change the ports based on the arguments given when running t
 -> to show this.
 
 
+*******Logging**********
+logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter=INFO
+- pasted the above inside application.properties 
+- Used to be DEBUG, now INFO
+- But what does it mean???
+
+- We had to create a method relating to this logging.
+- What is a Bean -> it is like a container
+- (find out more about beans) ****
+- Need to find out more about the syntax we did for this method. 
 
 
+******Deploying********
+- He changed to version 17 of java, as railway supports that.
+- He also made the changes in the POM file.
+- Then he went to railway to deploy.
+
+- To allow the public to access your app, you need to make it public and give them the link.
+- Need to delete the project
+
+
+******Need to know how to deploy for all the following modules.
 
 
 
@@ -114,7 +134,7 @@ sudo nano ~/.bash_profile -> for bash
 -> For z profile the command might be: sudo nano ~/.zprofile 
 
 -> Figure out yourself.... the way he show is unclear
-
+-> did this already.
 
 
 
@@ -126,3 +146,23 @@ sudo nano ~/.bash_profile -> for bash
 
 ---------------------------------------------------Shortcut---------------------------------------------------
 Shift + Option + F -> helps you format your code nicely!!**************
+
+
+
+---------------------------------------------------Day 12---------------------------------------------------
+- He also covered some content for day 12
+- Talked about the various HTTP requests (CRUD).
+- Request and Response Headers
+- The different reponses -> 100 to 500 -> understand what these mean.
+- MVC (understand what each is)
+
+- Using postman
+
+***********
+-> very first thing you do is to always create the model
+-> He then created the employee controller
+
+---------------------------------------------------Todo---------------------------------------------------
+- Learn how to change between different java versions (17 and 21)
+- Try deploying to railway.
+
