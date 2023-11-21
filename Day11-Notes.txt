@@ -70,6 +70,32 @@ Next, we created the files for the "static" folder.
 - Did alot of stuff regarding columns, rows, tables etc. go see code.
 - usefule for upcoming things that we would work on like forms.
 
+******Important******
+- You can see your html page in the browser using localhost.
+- When you use /index.html, the browser knows to find any static pages you might have.
+- E.g. http://localhost:8080/index.html
+
+- We also created an error.html file inside our templates folder.
+- When we search random stuff like localhost:8080/blabla
+- we will go to the error page automatically, because blabla doesn't exist.
+
+
+******
+- find out when is it necessary to compile, package, run!!!!! 
+- Be familiar on when to use what command.
+
+*****************Changing Ports*****************
+- Can refer to slides also.
+
+- We can also change the port inside the command line
+** Not sure why the slides way can't do, will see why.
+
+- Another way is to specify it inside the application.properties folder.
+(can see inside slides)
+
+
+
+
 
 
 ---------------------------------------------------Lombok-----------------------------------------------------
