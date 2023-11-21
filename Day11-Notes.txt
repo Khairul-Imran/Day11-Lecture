@@ -94,6 +94,13 @@ Next, we created the files for the "static" folder.
 (can see inside slides)
 
 
+*****How to change the ports*****
+He showed us how to change the ports based on the arguments given when running the app from the terminal.
+- Need to look again at the syntax to understand 100%.
+- Remember that the application.properties file has the highest priority -> that's why he commented out the port indicated in the application.properties.
+-> to show this.
+
+
 
 
 
