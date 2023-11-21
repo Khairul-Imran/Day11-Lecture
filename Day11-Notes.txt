@@ -37,6 +37,7 @@ It will give you the dependencies that you need to be put in the pom file.
 
 Template Folder:
 - All the Thymeleaf templates should be in there.
+- Revise what all the different parts of your app is for (the different folders)
 
 He showed the pom (project object model) file too
 - He showed how to add new dependencies
