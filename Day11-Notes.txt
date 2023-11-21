@@ -1,0 +1,53 @@
+- There are some notes in the slides too.
+
+
+--------------------------------------------------Diagram-------------------------------------------------
+In his diagrams:
+- Dotted arrow represents a reference.
+
+- View Engine
+- Frontend-Controller knows how to redirect the requests. Knows the existing routes that the client's requests can go.
+It manages the different requests.
+
+
+These are what we will learn to do:
+- Controller (4th)
+- Service - Able to read from multiple tables, and process it. (3rd)
+- Repo - A single function that helps to updates your records? (2nd)
+(In our case, the service and repo might do similar things, and you need just the service instead.)
+- Model - Contains representations of your objects. This is often the first folder you create.
+- View
+- DB
+
+
+---------------------------------------------Spring Initializr---------------------------------------------
+- Group is your package name
+
+Dependencies chosen:
+- Spring Web Dependency
+- Thymeleaf
+- Spring Boot DevTools - Detects changes in your code, and automatically rebuilds/recompile for you.
+- Lombok - Helps to reduce the need to write boilerplate code.
+
+When you need to use additional plugins/packages, you can go to the maven repository website to find it.
+It will give you the dependencies that you need to be put in the pom file.
+
+
+---------------------------------------------Inside our demo app---------------------------------------------
+
+Template Folder:
+- All the Thymeleaf templates should be in there.
+
+He showed the pom (project object model) file too
+- He showed how to add new dependencies
+
+He showed how to switch between different java versions also
+- Because railway only supports up to java 17, might need to change versions for that.
+- If not, you can dockerize your app, so that you can run on different java versions.
+
+
+
+
+
+
+
