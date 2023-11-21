@@ -162,7 +162,14 @@ Shift + Option + F -> helps you format your code nicely!!**************
 -> very first thing you do is to always create the model
 -> He then created the employee controller
 
+-> When your springboot application compiles, the framework identifies all the controllers.
+-> As long as you annotate controller/restController -> It will know where to go, the routes are managed.
+-> You just need to annotate correctly.
+
+-> if the resource doesn't exist, then it will redirect to 404 error.
 ---------------------------------------------------Todo---------------------------------------------------
-- Learn how to change between different java versions (17 and 21)
+- Learn how to change between different java versions (17 and 21) -> pretty much done.
 - Try deploying to railway.
+- Try running the app again, and check on Postman.
+- Understand notes.
 
