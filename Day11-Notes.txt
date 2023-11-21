@@ -168,8 +168,13 @@ Command + Shift + P -> Java: Clean Java Language Server Workspace ************
 
 -> if the resource doesn't exist, then it will redirect to 404 error.
 ---------------------------------------------------Todo---------------------------------------------------
-- Learn how to change between different java versions (17 and 21) -> pretty much done.
+- Learn how to change between different java versions (17 and 21) -> pretty much done, prof helped to set.
+
 - Try deploying to railway.
-- Try running the app again, and check on Postman.
-- Understand notes.
+- Re-read all the notes above.
+- Try running the app again, and check on Postman. (DONE)
+- Understand notes and all syntax. (DONE)
+  - What is going on with the logging? (DONE)
+  - What is going on with the port stuff? (DONE)
+- Look through all of day 12 + workshop
 
