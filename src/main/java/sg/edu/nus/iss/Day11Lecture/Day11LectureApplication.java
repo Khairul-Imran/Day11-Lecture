@@ -8,6 +8,8 @@ public class Day11LectureApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Day11LectureApplication.class, args);
+
+		System.out.println("Hello, this is my first application!!! TESTING TESTING");
 	}
 
 }

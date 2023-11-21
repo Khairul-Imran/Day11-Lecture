@@ -49,6 +49,28 @@ He showed how to switch between different java versions also
 He talked about the application.properties file
 - you put configuration settings there.
 
+He went through all the commands for maven:
+- he showed mvn clean / clean package -> deletes all the previous dependencies, and updates them, and recompiles them
+- When running the jar file, need to be inside the "target" directory. Or you can specify the path to the jar folder -> ./target etc....
+
+What is port 8080? -> an unused port on your device that can be used to run an application.
+- If there is already an app running on that port, then you need to use another port.
+
+He showed how devtool helps you to automatically refresh your application after making changes.
+
+
+Next, we created the files for the "static" folder.
+- Created an index.html file inside -> he showed the '!' shorcut for boilerplate code.
+- Created an "Images" folder inside.
+
+
+
+- He recommended us to learn bootstrap 5 for styling (alternative to using CSS)*****************
+- Copied the code found inside their docs into my html.
+- Did alot of stuff regarding columns, rows, tables etc. go see code.
+- usefule for upcoming things that we would work on like forms.
+
+
 
 ---------------------------------------------------Lombok-----------------------------------------------------
 - He talked about how lombok helps you to reduce boilerplate code (getters, setters, etc.) with annotations.
@@ -56,4 +78,5 @@ He talked about the application.properties file
 - More info at their documentation.
 
 
-
+---------------------------------------------------Shortcut---------------------------------------------------
+Shift + Option + F -> helps you format your code nicely!!**************
