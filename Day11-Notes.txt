@@ -46,9 +46,14 @@ He showed how to switch between different java versions also
 - Because railway only supports up to java 17, might need to change versions for that.
 - If not, you can dockerize your app, so that you can run on different java versions.
 
+He talked about the application.properties file
+- you put configuration settings there.
 
 
-
+---------------------------------------------------Lombok-----------------------------------------------------
+- He talked about how lombok helps you to reduce boilerplate code (getters, setters, etc.) with annotations.
+- For getters and setters, @toString, @EqualsHashCode, use @Data
+- More info at their documentation.
 
 
 
