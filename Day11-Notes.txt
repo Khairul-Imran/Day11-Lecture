@@ -105,6 +105,19 @@ He showed us how to change the ports based on the arguments given when running t
 
 
 
+
+--------------------------------------How to switch between different java versions (Mac)-----------------------------------
+- Java is stored inside ......
+- In the terminal:
+sudo nano ~/.bash_profile -> for bash
+-> I am using z profile, not bash -> find out the difference between the two.
+-> For z profile the command might be: sudo nano ~/.zprofile 
+
+-> Figure out yourself.... the way he show is unclear
+
+
+
+
 ---------------------------------------------------Lombok-----------------------------------------------------
 - He talked about how lombok helps you to reduce boilerplate code (getters, setters, etc.) with annotations.
 - For getters and setters, @toString, @EqualsHashCode, use @Data
