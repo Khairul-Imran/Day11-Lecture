@@ -146,7 +146,7 @@ sudo nano ~/.bash_profile -> for bash
 
 ---------------------------------------------------Shortcut---------------------------------------------------
 Shift + Option + F -> helps you format your code nicely!!**************
-
+Command + Shift + P -> Java: Clean Java Language Server Workspace ************
 
 
 ---------------------------------------------------Day 12---------------------------------------------------
